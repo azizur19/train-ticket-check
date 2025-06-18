@@ -1,0 +1,37 @@
+Category,Rank,Title,Website
+Police,1,Inspector General of Police (IGP),https://police.gov.bd
+Police,2,Additional Inspector General of Police,https://police.gov.bd
+Police,3,Deputy Inspector General (DIG),https://police.gov.bd
+Police,4,Additional DIG,https://police.gov.bd
+Police,5,Superintendent of Police (SP),https://police.gov.bd
+Police,6,Additional SP,https://police.gov.bd
+Police,7,Assistant Superintendent of Police (ASP),https://police.gov.bd
+Judiciary,1,Chief Justice of Bangladesh,https://supremecourt.gov.bd
+Judiciary,2,Appellate Division Judge,https://supremecourt.gov.bd
+Judiciary,3,High Court Division Judge,https://supremecourt.gov.bd
+Judiciary,4,District and Sessions Judge,https://supremecourt.gov.bd
+Judiciary,5,Additional District Judge,https://supremecourt.gov.bd
+Judiciary,6,Joint District Judge,https://supremecourt.gov.bd
+Judiciary,7,Senior Assistant Judge,https://supremecourt.gov.bd
+Civil Administration,1,Cabinet Secretary,https://cabinet.gov.bd
+Civil Administration,2,Principal Secretary to the Prime Minister,https://cabinet.gov.bd
+Civil Administration,3,Senior Secretary / Secretary,https://cabinet.gov.bd
+Civil Administration,4,Additional Secretary,https://cabinet.gov.bd
+Civil Administration,5,Joint Secretary,https://cabinet.gov.bd
+Civil Administration,6,Deputy Secretary,https://cabinet.gov.bd
+Civil Administration,7,Senior Assistant Secretary,https://cabinet.gov.bd
+Civil Administration,8,Assistant Secretary,https://cabinet.gov.bd
+Military,1,Chief of Army Staff (General),https://mod.gov.bd
+Military,2,Chief of Naval Staff (Admiral),https://mod.gov.bd
+Military,3,Chief of Air Staff (Air Chief Marshal),https://mod.gov.bd
+Military,4,Lieutenant General,https://mod.gov.bd
+Military,5,Major General,https://mod.gov.bd
+Military,6,Brigadier General,https://mod.gov.bd
+National,1,President of Bangladesh,https://bangladesh.gov.bd
+National,2,Prime Minister of Bangladesh,https://bangladesh.gov.bd
+National,3,Speaker of the Parliament,https://bangladesh.gov.bd
+National,4,Chief Election Commissioner,https://bangladesh.gov.bd
+National,5,Attorney General,https://bangladesh.gov.bd
+National,6,Comptroller and Auditor General (CAG),https://bangladesh.gov.bd
+National,7,"Chairman, Anti-Corruption Commission (ACC)",https://bangladesh.gov.bd
+National,8,"Governor, Bangladesh Bank",https://bangladesh.gov.bd

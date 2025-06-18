@@ -14,14 +14,13 @@ def web_driver():
 
 # Create driver and open the target URL
 driver = web_driver()
-driver.get('https://eticket.railway.gov.bd/booking/train/search?fromcity=Dhaka&tocity=Rajshahi&doj=08-Jun-2025&class=S_CHAIR')
-
+driver.get('https://mofa.gov.bd/')
 # Wait for the page to load (optional sleep or use WebDriverWait)
 time.sleep(5)
 
 # Print entire page HTML
 # print(driver.page_source)
-with open("page_output.txt", "w", encoding="utf-8") as f:
+with open("tuition_output.txt", "w", encoding="utf-8") as f:
     f.write(driver.page_source)
 
 while True:
@@ -29,13 +28,6 @@ while True:
     if key.lower() == 'q':
         break
 
-elements = driver.find_elements(By.CSS_SELECTOR, "div.available-text.open-for-all.ng-star-inserted")
-# Extract text and write to a file
-with open("div_texts.txt", "w", encoding="utf-8") as f:
-    for el in elements:
-        f.write(el.text + "\n")
-        print((el.text))
-        
 
 # Optional: Close browser
 driver.quit()

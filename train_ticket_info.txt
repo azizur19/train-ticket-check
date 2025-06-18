@@ -1,0 +1,57 @@
+https://eticket.railway.gov.bd/booking/train/search?fromcity=Dhaka&tocity=Rajshahi&doj=02-Jun-2025&class=S_CHAIR
+https://eticket.railway.gov.bd/booking/train/search?fromcity=Biman_Bandar&tocity=Rajshahi&doj=02-Jun-2025&class=S_CHAIR
+https://eticket.railway.gov.bd/booking/train/search?fromcity=Biman_Bandar&tocity=Ishwardi%20Bypass&doj=02-Jun-2025&class=S_CHAIR
+https://eticket.railway.gov.bd/booking/train/search?fromcity=Biman_Bandar&tocity=Ishwardi&doj=02-Jun-2025&class=S_CHAIR
+https://eticket.railway.gov.bd/booking/train/search?fromcity=Biman_Bandar&tocity=Natore&doj=02-Jun-2025&class=S_CHAIR
+https://eticket.railway.gov.bd/booking/train/search?fromcity=Biman_Bandar&tocity=Chatmohar&doj=02-Jun-2025&class=S_CHAIR
+https://eticket.railway.gov.bd/booking/train/search?fromcity=Biman_Bandar&tocity=Ullapara&doj=02-Jun-2025&class=S_CHAIR
+https://eticket.railway.gov.bd/booking/train/search?fromcity=Biman_Bandar&tocity=Boral_Bridge&doj=02-Jun-2025&class=S_CHAIR
+https://eticket.railway.gov.bd/booking/train/search?fromcity=Biman_Bandar&tocity=SH%20M%20Monsur%20Ali&doj=02-Jun-2025&class=S_CHAIR
+https://eticket.railway.gov.bd/booking/train/search?fromcity=Dhaka&tocity=Azim%20Nagar&doj=02-Jun-2025&class=S_CHAIR
+https://eticket.railway.gov.bd/booking/train/search?fromcity=Joydebpur&tocity=Rajshahi&doj=02-Jun-2025&class=S_CHAIR
+https://eticket.railway.gov.bd/booking/train/search?fromcity=Dhaka&tocity=Jamtail&doj=02-Jun-2025&class=S_CHAIR
+https://eticket.railway.gov.bd/booking/train/search?fromcity=Dhaka&tocity=Arani&doj=02-Jun-2025&class=S_CHAIR
+
+
+<div _ngcontent-nys-c61 class="available-text open-for-all ng-star-inserted">
+<div _ngcontent-nys-c61 class="available-text open-for-all ng-star-inserted">
+<div _ngcontent-lea-c61 class="available-text open-for-all ng-star-inserted">
+
+
+!pip install selenium
+!pip install webdriver_manager
+!apt-get update
+!apt-get install chromium chromium-driver
+
+import webdriver_manager
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+import time
+
+def web_driver():
+    options = webdriver.ChromeOptions()
+    options.add_argument("--verbose")
+    options.add_argument('--no-sandbox')
+    options.add_argument('--headless')
+    options.add_argument('--disable-gpu')
+    options.add_argument("--window-size=1920, 1200")
+    options.add_argument('--disable-dev-shm-usage')
+    driver = webdriver.Chrome(options=options)
+    return driver
+
+driver = web_driver()
+driver.get('https://eticket.railway.gov.bd/booking/train/search?fromcity=Dhaka&tocity=Rajshahi&doj=09-Jun-2025&class=S_CHAIR')
+print(driver.page_source)
+
+
+
+
+
+
+
+
+
+
+
+
+
